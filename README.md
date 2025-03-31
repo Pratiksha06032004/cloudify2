@@ -1,6 +1,6 @@
 # React + Vite
 
-# Task Management UI
+# Employee Management UI
 
 This is a React component for managing employees and their skills dynamically. The UI allows users to assign skills to employees, add new employees, and create custom skill options.
 
