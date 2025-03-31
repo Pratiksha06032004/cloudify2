@@ -1,0 +1,167 @@
+/* Background container styles - Centers content on the screen */
+.backgroundContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+/* Table container styles - White box with shadow effect */
+.tableContainer {
+    background-color: white;
+    width: 700px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styles - Ensures full width and proper spacing */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/* Table header and cell styling */
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Container for select dropdown */
+.selectContainer {
+    position: relative;
+    width: 100%;
+}
+
+/* Select dropdown styling */
+.select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+}
+
+/* Dropdown container styling */
+.dropdownContainer {
+    position: relative;
+    width: 100%;
+}
+
+/* Dropdown header for displaying selected options */
+.dropdownHeader {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    min-height: 10px;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content:baseline;
+}
+
+/* Selected option styling within dropdown */
+.selectedOption {
+    background: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+/* Remove option (close button) inside dropdown */
+.removeOption {
+    margin-left: 5px;
+    cursor: pointer;
+    color:black;
+}
+
+/* Dropdown menu container */
+.dropdownMenu {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 10;
+    margin-top: 5px;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual dropdown item styling */
+.dropdownItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+/* Section for adding a new option */
+.addOptionContainer {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+/* Input field for adding a new option */
+.inputField {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button to add a new option */
+.addButton {
+    margin-left: 5px;
+    padding: 8px 12px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Container for Add New Row button */
+.addRowButtonContainer {
+    display: flex;
+    justify-content:end;
+    margin-top: 20px;
+}
+
+/* Styling for the Add New Row button */
+.addRowButton {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+/* Styling for label elements inside dropdown */
+.selectLabel {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Styling for the image inside Add New Row button */
+.addRowButton img {
+    width: 15px;
+    height: 15px;
+}
