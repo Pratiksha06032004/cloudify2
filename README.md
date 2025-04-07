@@ -23,9 +23,9 @@ Ensure you have the following installed:
 ## Installation
 <h2>Set Up and Run the Application</h2>
 <h4>1. Clone the Repository</h4>
-<p>git clone https://github.com/Pratiksha06032004/Cloudify.git</p>
+<p>git clone https://github.com/Pratiksha06032004/cloudify2.git</p>
 <h4>2. Install Dependencies</h4>
-<p>cd Cloudify</p>
+<p>cd cloudify2</p>
 <p>npm install</p>
 <p>npm run dev</p>
 
