@@ -30,8 +30,8 @@ Ensure you have the following installed:
 <p>npm run dev</p>
 
 ## Setting up React with Vite
- npm create vite@latest my-app --template react
-cd my-app
+ npm create vite@latest my-app --template react<br>
+cd my-app<br>
 npm install
  
  
